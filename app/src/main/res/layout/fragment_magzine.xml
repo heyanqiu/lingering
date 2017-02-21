@@ -3,6 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <!--
+          猎乐详情页面的碎片布局
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"

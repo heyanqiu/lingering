@@ -4,16 +4,12 @@
     android:layout_height="match_parent">
 
     <!--
-        猎乐列表中，放置音乐的ListView
+        遇见列表的音乐对应的ListView
     -->
 
     <ListView
-        android:id="@+id/lv_magzinelistdetail"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
     </ListView>
-
-
 
 </LinearLayout>

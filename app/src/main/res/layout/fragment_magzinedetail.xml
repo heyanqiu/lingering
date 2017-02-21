@@ -4,6 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+    <!--
+        猎乐详情页中 viewpager里放的布局
+    -->
 
     <ScrollView
         android:layout_width="match_parent"
