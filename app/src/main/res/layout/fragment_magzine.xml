@@ -29,6 +29,7 @@
             android:gravity="center"
             >
             <TextView
+                android:id="@+id/tv_magzine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="猎乐"
@@ -73,6 +74,7 @@
         android:layout_weight="1">
 
         <android.support.v4.view.ViewPager
+            android:id="@+id/vp_magzine"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </android.support.v4.view.ViewPager>
