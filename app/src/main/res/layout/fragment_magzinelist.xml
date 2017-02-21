@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@android:color/white" />
+    <RadioGroup android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton android:button="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="乐文"
+            android:textSize="18dp"/>
+        <RadioButton android:button="@null"
+            android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:text="猎乐"
+            android:textSize="18dp"/>
+
+        <RadioButton
+            android:button="@null"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:text="遇见"
+            android:textSize="18dp"
+         />
+        <RadioButton
+            android:button="@null"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:text="音乐人"
+            android:textSize="18dp"
+         />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+</LinearLayout>
