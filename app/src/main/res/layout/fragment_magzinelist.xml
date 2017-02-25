@@ -8,40 +8,50 @@
         猎乐列表的碎片布局
     -->
 
-    <ImageView android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:src="@android:color/white" />
-    <RadioGroup android:layout_height="wrap_content"
+    <RadioGroup
+        android:id="@+id/rg_magzinelist"
+        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center">
-        <RadioButton android:button="@null"
+        <RadioButton
+            android:id="@+id/rd_lewen"
+            android:button="@null"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="乐文"
             android:textSize="18dp"/>
-        <RadioButton android:button="@null"
+        <RadioButton
+            android:id="@+id/rd_magzine"
+            android:button="@null"
             android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_margin="10dp"
-         android:text="猎乐"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="猎乐"
             android:textSize="18dp"/>
 
         <RadioButton
+            android:id="@+id/rd_meet"
             android:button="@null"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_margin="10dp"
-         android:text="遇见"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="遇见"
             android:textSize="18dp"
          />
         <RadioButton
+            android:id="@+id/rd_musician"
             android:button="@null"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_margin="10dp"
-         android:text="音乐人"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="音乐人"
             android:textSize="18dp"
          />
     </RadioGroup>

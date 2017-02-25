@@ -4,7 +4,7 @@
     android:id="@+id/activity_magzine"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.qf.lingering.view.MagzineActivity"
+    tools:context="com.qf.lingering.activity.MagzineActivity"
     android:orientation="vertical"
     >
     <FrameLayout
