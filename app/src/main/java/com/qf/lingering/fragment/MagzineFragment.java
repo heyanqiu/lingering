@@ -9,4 +9,7 @@ package com.qf.lingering.fragment;
 public class MagzineFragment {
 
 
+
+
+
 }
